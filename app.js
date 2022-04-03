@@ -17,7 +17,7 @@ app.get("/console", (req,res) =>{
     res.render("console")
 })
 
-app.post("/console" ,(req,res) => {
+app.post("/consol" ,(req,res) => {
     const soil = _.toUpper(req.body.soil);
     const crop = req.body.crop
     
